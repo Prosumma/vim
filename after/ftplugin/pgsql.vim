@@ -24,7 +24,7 @@ function! PGRunScript(database, user, password, file)
 	exec "norm! :!" . join(l:args, " ") . "\n"
 endfunction
 
-function s:PGExec()
+function! s:PGExec()
   let l:database = exists("b:pgdb") ? b:pgdb : ""
   let l:user = exists("b:pguser") ? b:pguser : ""
   let l:password = exists("b:pgpassword") ? b:pgpassword : ""
