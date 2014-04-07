@@ -1,5 +1,5 @@
 " Vim filetype plugin file
-" Language:	ruby
+" Language:	sh
 " Maintainer:	Gregory Higley <code at revolucent dot net>
 " Last Changed: 06 Apr 2014
 
