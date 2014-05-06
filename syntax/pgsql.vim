@@ -34,7 +34,7 @@ syn match pgLabel "<<\w\+>>"
 
 syn keyword pgKeyword abort alter aggregate all analyze and any alias add array
 syn keyword pgKeyword begin by before between
-syn keyword pgKeyword conversion cascade class close
+syn keyword pgKeyword continue conversion cascade class close
 syn keyword pgKeyword cluster checkpoint comment
 syn keyword pgKeyword case cast cascade character check column columns constraint copy cross
 syn keyword pgKeyword database domain databases default delete distinct drop declare deallocate desc
@@ -43,11 +43,11 @@ syn keyword pgKeyword else exception explain elsif end enum exists execute exclu
 syn keyword pgKeyword function foreach foreign from full fetch force for
 syn keyword pgKeyword group grant global get
 syn keyword pgKeyword having 
-syn keyword pgKeyword including index into immutable inner initially immediate inherits instead insert in if is
+syn keyword pgKeyword ilike including index into immutable inner initially immediate inherits instead insert in if is
 syn keyword pgKeyword join
-syn keyword pgKeyword language lock local like limit left load loop
+syn keyword pgKeyword language last lock local like limit left load loop
 syn keyword pgKeyword max maxvalue min minvalue move match
-syn keyword pgKeyword not notice notify no next
+syn keyword pgKeyword not notice notify no next nulls
 syn keyword pgKeyword offset or operator outer order on out open over
 syn keyword pgKeyword prepare primary password primary privilege procedure partial prepared
 syn keyword pgKeyword partition preserve perform
@@ -66,6 +66,7 @@ syn keyword pgVariable value contained containedin=pgCheck
 
 syn region pgCode matchgroup=pgDelimiter start=+\$\z(\w*\)\$+ end=+\$\z1\$+ contained contains=TOP
 syn keyword pgKeyword as nextgroup=pgCode skipwhite skipempty
+syn keyword pgKeyword do nextgroup=pgCode skipwhite skipempty
 
 syn match pgExtensionName "[A-Za-z_][A-Za-z0-9_]*" contained
 syn keyword pgExtension extension contained nextgroup=pgExtensionName skipwhite skipempty;
@@ -106,14 +107,16 @@ PGMatchFunction ceil char_length coalesce count
 PGMatchFunction extract
 PGMatchFunction floor
 PGMatchFunction hstore
+PGMatchFunction lower
 PGMatchFunction nextval
+PGMatchFunction octet_length
 PGMatchFunction position
 PGMatchFunction quote_ident quote_literal
 PGMatchFunction regexp_replace replace round row_number
 PGMatchFunction st_distance st_setsrid st_makepoint
 PGMatchFunction string_to_array substring sum
 PGMatchFunction plainto_tsquery to_tsvector trim
-PGMatchFunction uuid_generate_v4 unnest
+PGMatchFunction upper uuid_generate_v4 unnest
 
 delc PGMatchFunction
 
