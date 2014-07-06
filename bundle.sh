@@ -21,3 +21,4 @@ load_bundle ctrlp.vim 'https://github.com/kien/ctrlp.vim';
 load_bundle nerdtree 'https://github.com/scrooloose/nerdtree';
 load_bundle vim-sensible 'https://github.com/tpope/vim-sensible';
 load_bundle vim-rails 'https://github.com/tpope/vim-rails';
+load_bundle vim-abolish 'https://github.com/tpope/vim-abolish';

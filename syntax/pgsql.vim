@@ -32,9 +32,9 @@ syn keyword pgConstant both btree current_date current_timestamp false found gin
 
 syn match pgLabel "<<\w\+>>"
 
-syn keyword pgKeyword abort alter aggregate all analyze and any alias add array
+syn keyword pgKeyword abort alter after aggregate all analyze and any alias add array
 syn keyword pgKeyword begin by before between
-syn keyword pgKeyword continue conversion cascade class close
+syn keyword pgKeyword continue conversion cascade class close constant
 syn keyword pgKeyword cluster checkpoint comment
 syn keyword pgKeyword case cast cascade character check column columns constraint copy cross
 syn keyword pgKeyword database domain databases default delete distinct drop declare deallocate desc
@@ -43,7 +43,7 @@ syn keyword pgKeyword else exception explain elsif end enum exists execute exclu
 syn keyword pgKeyword function foreach foreign from full fetch force for
 syn keyword pgKeyword group grant global get
 syn keyword pgKeyword having 
-syn keyword pgKeyword ilike including index into immutable inner initially immediate inherits instead insert in if is
+syn keyword pgKeyword ilike including index into immutable inner initially immediate inherits instead insert in inout if is interval
 syn keyword pgKeyword join
 syn keyword pgKeyword language last lock local like limit left load loop
 syn keyword pgKeyword max maxvalue min minvalue move match
@@ -57,7 +57,7 @@ syn keyword pgKeyword return returning
 syn keyword pgKeyword select set strict schema sequence savepoint simple some system stable setof
 syn keyword pgKeyword truncate to transaction table tables temp temporary tablespace then trigger
 syn keyword pgKeyword update union unique unlisten using
-syn keyword pgKeyword verbose view values varying vacuum
+syn keyword pgKeyword verbose view values varying vacuum volatile
 syn keyword pgKeyword when where
 
 syn region pgCheck start="(" end=")" contained contains=TOP
@@ -86,9 +86,9 @@ syn keyword pgKeyword with nextgroup=pgWith skipwhite skipempty
 
 syn match pgVariable "\<_\a*[A-Za-z0-9]*[._]*[A-Za-z0-9]*\>" 
 syn match pgVariable "\$[0-9]\+" 
-syn keyword pgvariable new old
+syn keyword pgvariable new old tg_op tg_when
 
-syn keyword pgType anyarray bigint bigserial boolean bytea date geography geometry hstore int integer numeric point record serial text timestamp uuid void
+syn keyword pgType anyarray anyelement bigint bigserial boolean bytea date geography geometry hstore int integer numeric point record serial text timestamp uuid void
 
 syn keyword pgKey key contained
 syn keyword pgKeyword primary nextgroup=pgKey skipwhite skipempty foreign nextgroup=pgKey skipwhite skipempty 
@@ -108,15 +108,17 @@ PGMatchFunction extract
 PGMatchFunction floor
 PGMatchFunction hstore
 PGMatchFunction lower
+PGMatchFunction md5
 PGMatchFunction nextval
 PGMatchFunction octet_length
-PGMatchFunction position
+PGMatchFunction position pg_typeof
 PGMatchFunction quote_ident quote_literal
 PGMatchFunction regexp_replace replace round row_number
 PGMatchFunction st_distance st_setsrid st_makepoint
 PGMatchFunction string_to_array substring sum
 PGMatchFunction plainto_tsquery to_tsvector trim
 PGMatchFunction upper uuid_generate_v4 unnest
+PGMatchFunction year
 
 delc PGMatchFunction
 
