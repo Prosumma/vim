@@ -72,6 +72,7 @@ syn match pgExtensionName "[A-Za-z_][A-Za-z0-9_]*" contained
 syn keyword pgExtension extension contained nextgroup=pgExtensionName skipwhite skipempty;
 syn keyword pgCreated type contained
 syn keyword pgKeyword create nextgroup=pgCreated,pgExtension skipwhite skipempty
+syn keyword pgKeyword drop nextgroup=pgCreated skipwhite skipempty
 
 syn keyword pgTrigger trigger contained
 syn keyword pgKeyword returns nextgroup=pgTrigger skipwhite skipempty
@@ -102,9 +103,9 @@ function! s:MatchFunction(...)
 endfunction
 com! -nargs=+ PGMatchFunction call <SID>MatchFunction(<f-args>)
 
-PGMatchFunction array_agg array_length array_to_string array_upper
+PGMatchFunction akeys array_agg array_length array_remove array_to_string array_upper
 PGMatchFunction ceil char_length coalesce count
-PGMatchFunction extract
+PGMatchFunction each extract
 PGMatchFunction floor
 PGMatchFunction hstore
 PGMatchFunction lower
@@ -114,8 +115,9 @@ PGMatchFunction octet_length
 PGMatchFunction position pg_typeof
 PGMatchFunction quote_ident quote_literal
 PGMatchFunction regexp_replace replace round row_number
+PGMatchFunction skeys
 PGMatchFunction st_distance st_setsrid st_makepoint
-PGMatchFunction string_to_array substring sum
+PGMatchFunction string_to_array substring sum svals
 PGMatchFunction plainto_tsquery to_tsvector trim
 PGMatchFunction upper uuid_generate_v4 unnest
 PGMatchFunction year
