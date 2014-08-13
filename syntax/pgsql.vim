@@ -39,24 +39,24 @@ syn keyword pgKeyword cluster checkpoint comment
 syn keyword pgKeyword case cast cascade character check column columns constraint copy cross
 syn keyword pgKeyword database domain databases default delete distinct drop declare deallocate desc
 syn keyword pgKeyword deferrable deferred defaults do diagnostics
-syn keyword pgKeyword else exception explain elsif end enum exists execute exclusion exception except exit
-syn keyword pgKeyword function foreach foreign from full fetch force for
+syn keyword pgKeyword else exception explain elsif encrypted end enum exists execute exclusion exception except exit
+syn keyword pgKeyword function functions foreach foreign from full fetch force for
 syn keyword pgKeyword group grant global get
 syn keyword pgKeyword having 
 syn keyword pgKeyword ilike including index into immutable inner initially immediate inherits instead insert in inout if is interval
 syn keyword pgKeyword join
-syn keyword pgKeyword language last lock local like limit left load loop
+syn keyword pgKeyword language last lock local like limit left load login loop
 syn keyword pgKeyword max maxvalue min minvalue move match
 syn keyword pgKeyword not notice notify no next nulls
 syn keyword pgKeyword offset or operator outer order on out open over
 syn keyword pgKeyword prepare primary password primary privilege procedure partial prepared
-syn keyword pgKeyword partition preserve perform
+syn keyword pgKeyword partition preserve perform privileges
 syn keyword pgKeyword query
 syn keyword pgKeyword raise recursive role replace reindex release reset revoke rollback references row rows rowtype rule restrict
 syn keyword pgKeyword return returning
-syn keyword pgKeyword select set strict schema sequence savepoint simple some system stable setof
+syn keyword pgKeyword select sequences set strict schema sequence savepoint simple some system stable setof
 syn keyword pgKeyword truncate to transaction table tables temp temporary tablespace then trigger
-syn keyword pgKeyword update union unique unlisten using
+syn keyword pgKeyword update union unique unlisten usage using
 syn keyword pgKeyword verbose view values varying vacuum volatile
 syn keyword pgKeyword when where
 
