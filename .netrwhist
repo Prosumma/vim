@@ -1,9 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
-let g:netrw_dirhist_1='/Users/gregory/Projects/src/crazy'
-let g:netrw_dirhist_2='/Users/gregory/Projects/src/crazy/app/views/check_it'
-let g:netrw_dirhist_3='/Users/gregory/Projects/src/crazy/app/views'
-let g:netrw_dirhist_4='/Users/gregory/Projects/src/crazy/app'
-let g:netrw_dirhist_5='/Users/gregory/Projects/src/crazy'
-let g:netrw_dirhist_6='/Users/gregory/.vim/bundle/ctrlp.vim'
-let g:netrw_dirhist_7='/Users/gregory/Projects/src/karmazon/server-0.1/bin'
