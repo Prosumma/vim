@@ -52,3 +52,5 @@ command! -nargs=0 OpenSyntaxFile call OpenSyntaxFile()
 if filereadable(".lvimrc")
   so .lvimrc
 end
+
+map Y y$

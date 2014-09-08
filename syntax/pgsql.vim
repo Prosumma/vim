@@ -34,7 +34,7 @@ syn match pgLabel "<<\w\+>>"
 
 syn keyword pgKeyword abort alter after aggregate all analyze and any alias add array
 syn keyword pgKeyword begin by before between
-syn keyword pgKeyword continue conversion cascade class close constant
+syn keyword pgKeyword commit continue conversion cascade class close constant
 syn keyword pgKeyword cluster checkpoint comment
 syn keyword pgKeyword case cast cascade character check column columns constraint copy cross
 syn keyword pgKeyword database domain databases default delete distinct drop declare deallocate desc
@@ -85,7 +85,7 @@ syn keyword pgWithConstant csv contained
 syn region pgWith start="(" end=")" contained contains=pgWithKeyword,pgWithConstant,pgKeyword,pgConstant,pgString
 syn keyword pgKeyword with nextgroup=pgWith skipwhite skipempty
 
-syn match pgVariable "\<_\a*[A-Za-z0-9]*[._]*[A-Za-z0-9]*\>" 
+syn match pgVariable "\<_[A-Za-z0-9][A-Za-z0-9_]*\>" 
 syn match pgVariable "\$[0-9]\+" 
 syn keyword pgvariable new old tg_op tg_when
 
