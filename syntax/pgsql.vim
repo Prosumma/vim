@@ -1,9 +1,30 @@
 " Vim syntax file
 " Language:     pgsql
 " Maintainer:   Gregory Higley <code at revolucent dot net>
-" Last Change:  $Date: 2010/03/11 21:43:23 $
+" License: MIT
+" Last Change:  $Date: 2014/09/10 20:40:00 $
 " Filenames:    *.psql *.pgsql *.plpgsql
 " URL:		http://www.revolucent.net
+" Note:   This file began with work done by Devrim Gunduz (devrim@postgresql.org).
+"         Very little of his original work remains,
+"         but I consider it proper to give him credit where credit is due. I
+"         ask that if you create a derivative work, you credit both Gregory
+"         Higley and Devrim Gunduz.
+"
+" Copyright (c) 2014 Gregory Higley
+"
+" Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation
+" files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy,
+" modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software
+" is furnished to do so, subject to the following conditions:
+"
+" The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+"
+" THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+" OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+" LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+" CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
 
 if exists("b:current_syntax") | finish | endif
 
