@@ -78,7 +78,7 @@ syn keyword pgKeyword return returning
 syn keyword pgKeyword select sequences set strict schema sequence savepoint simple some system stable setof
 syn keyword pgKeyword truncate to transaction table tables temp temporary tablespace then trigger
 syn keyword pgKeyword update union unique unlisten usage using
-syn keyword pgKeyword verbose view values varying vacuum volatile
+syn keyword pgKeyword variadic verbose view values varying vacuum volatile
 syn keyword pgKeyword when where
 
 syn region pgCheck start="(" end=")" contained contains=TOP
@@ -135,7 +135,7 @@ PGMatchFunction nextval
 PGMatchFunction octet_length
 PGMatchFunction position pg_typeof
 PGMatchFunction quote_ident quote_literal
-PGMatchFunction regexp_replace replace round row_number
+PGMatchFunction regexp_matches regexp_replace replace round row_number
 PGMatchFunction skeys
 PGMatchFunction st_distance st_setsrid st_makepoint
 PGMatchFunction string_to_array substring sum svals
