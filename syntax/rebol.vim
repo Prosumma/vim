@@ -37,19 +37,18 @@ syn keyword rebPredefined ajoin all any append apply
 syn keyword rebPredefined bind block?
 syn keyword rebPredefined compose copy
 syn keyword rebPredefined default do
-syn keyword rebPredefined either equal?
-syn keyword rebPredefined false find first for foreach func funct
+syn keyword rebPredefined either equal? exit
+syn keyword rebPredefined find first for foreach func funct
 syn keyword rebPredefined if import
 syn keyword rebPredefined length?
 syn keyword rebPredefined make map-each
-syn keyword rebPredefined none not-equal?
+syn keyword rebPredefined not-equal?
 syn keyword rebPredefined object op?
 syn keyword rebPredefined parse print probe
 syn keyword rebPredefined reduce rejoin repend
 syn keyword rebPredefined same? second set
-syn keyword rebPredefined to true
-syn keyword rebSelf self
-syn keyword rebRebol rebol
+syn keyword rebPredefined to
+syn keyword rebSpecial false off on no none rebol self true yes
 
 " Basics
 syn match rebType "\K\k*!\>"
@@ -76,8 +75,7 @@ RebHi rebOperator Operator
 RebHi rebLocal Special
 RebHi rebRefinementWord Constant
 RebHi rebRefinement Constant
-RebHi rebSelf Special
-RebHi rebRebol Special
+RebHi rebSpecial Special
 RebHi rebLitWord Constant
 RebHi rebLit Constant
 RebHi rebPredefined Keyword
