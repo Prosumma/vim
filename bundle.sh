@@ -23,3 +23,4 @@ load_bundle vim-sensible 'https://github.com/tpope/vim-sensible';
 load_bundle vim-rails 'https://github.com/tpope/vim-rails';
 load_bundle vim-abolish 'https://github.com/tpope/vim-abolish';
 load_bundle vim-coffee-script 'https://github.com/kchmck/vim-coffee-script';
+load_bundle vim-rebol 'https://github.com/prosumma/vim-rebol';
