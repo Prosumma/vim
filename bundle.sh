@@ -25,3 +25,5 @@ load_bundle vim-abolish 'https://github.com/tpope/vim-abolish';
 load_bundle vim-coffee-script 'https://github.com/kchmck/vim-coffee-script';
 load_bundle vim-rebol 'https://github.com/prosumma/vim-rebol';
 load_bundle vim-pgsql 'https://github.com/prosumma/vim-pgsql';
+load_bundle vim-swift 'https://github.com/toyamarinyon/vim-swift';
+
