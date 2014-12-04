@@ -4,7 +4,7 @@ set guifont=Source\ Code\ Pro:h16
 
 " ir_black looks beautiful when editing all languages but Ruby.
 set transparency=4
-colo moria
+colo ir_black
 
 if filereadable(".lgvimrc")
   so .lgvimrc
