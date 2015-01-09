@@ -1,3 +1,7 @@
+if $COLORTERM == 'gnome-terminal'
+    set t_Co=256
+endif
+
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
