@@ -53,8 +53,11 @@ endfunction
 
 command! -nargs=0 OpenSyntaxFile call OpenSyntaxFile()
 
+map Y y$
+
+runtime! vimrc.d/*.vim
+
 if filereadable(".lvimrc")
   so .lvimrc
 end
 
-map Y y$
