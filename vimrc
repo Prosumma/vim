@@ -6,7 +6,6 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
-colo xoria256
 set number
 set spr
 
