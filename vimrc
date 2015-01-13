@@ -30,6 +30,7 @@ set foldopen=block,insert,jump,mark,percent,quickfix,search,tag,undo
 set scrolloff=8
 set virtualedit=all
 set incsearch
+let g:NERDTreeShowHidden=1
 
 function! GetSyntaxFile()
   for path in pathogen#split(&rtp)
