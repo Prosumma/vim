@@ -32,6 +32,9 @@ set virtualedit=all
 set incsearch
 let g:NERDTreeShowHidden=1
 
+let mapleader='\'
+map <LEADER>f :NERDTreeFind<CR>
+
 function! GetSyntaxFile()
   for path in pathogen#split(&rtp)
     let l:synpath = path . "/syntax/" . &l:filetype . ".vim"
