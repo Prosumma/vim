@@ -56,6 +56,18 @@ endfunction
 
 command! -nargs=0 OpenSyntaxFile call OpenSyntaxFile()
 
+function! StepColorSchemes()
+  let l:colorschemes = split(globpath(&rtp, "colors/*.vim"), "\n")
+  for l:colorscheme in l:colorschemes
+    silent! exe 'so ' . l:colorscheme
+    redraw
+    echo l:colorscheme
+    sleep 2
+  endfor
+endfunction
+
+command! -nargs=0 StepColorSchemes call StepColorSchemes()
+
 map Y y$
 
 runtime! vimrc.d/*.vim
