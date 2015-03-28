@@ -9,3 +9,7 @@ syn region coffeeScript start=#<script [^>]*type="text/coffeescript"[^>]*>#
 \                       end=#</script>#me=s-1 keepend
 \                       contains=@htmlCoffeeScript,htmlScriptTag,@htmlPreproc
 \                       containedin=htmlHead
+
+" HTML 5.0
+syn keyword htmlTagName contained header nav
+
