@@ -20,7 +20,7 @@ set ch=2
 set vb
 set backspace=2
 set cpoptions=ces$
-set stl=%f\ (%Y)\ %m\ %r\ Line:\ %l/%L[%p%%]\ Col:\ %c\ Buf:\ #%n\ [%b][0x%B]
+set stl=%f\ (%Y)\ %m\ %r\ Line:\ %l/%L[%p%%]\ Col:\ %c\ Buf:\ #%n\ [%b][0x%B]%=%{fugitive#statusline()}
 set laststatus=2
 set mousehide
 set guioptions=ac
