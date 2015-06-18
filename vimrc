@@ -30,10 +30,13 @@ set foldopen=block,insert,jump,mark,percent,quickfix,search,tag,undo
 set scrolloff=8
 set virtualedit=all
 set incsearch
+set listchars=tab:▸\ ,eol:¬
+set list
 let g:NERDTreeShowHidden=1
 
 let mapleader='\'
 map <LEADER>f :NERDTreeFind<CR>
+map <LEADER>l :set list!<CR>
 
 function! GetSyntaxFile()
   for path in pathogen#split(&rtp)
