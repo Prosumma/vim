@@ -28,4 +28,4 @@ load_bundle vim-pgsql 'https://github.com/prosumma/vim-pgsql';
 load_bundle vim-swift 'https://github.com/toyamarinyon/vim-swift';
 load_bundle vim-windowswap 'https://github.com/wesQ3/vim-windowswap';
 load_bundle vim-fugitive 'https://github.com/tpope/vim-fugitive';
-
+load_bundle vim-json 'https://github.com/elzr/vim-json';
