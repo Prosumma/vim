@@ -31,7 +31,6 @@ set scrolloff=8
 set virtualedit=all
 set incsearch
 set listchars=tab:▸\ ,eol:¬
-" set list
 let g:NERDTreeShowHidden=1
 
 let mapleader=' '
