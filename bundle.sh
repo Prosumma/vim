@@ -31,3 +31,6 @@ load_bundle vim-surround 'https://github.com/tpope/vim-surround';
 load_bundle vim-fugitive 'https://github.com/tpope/vim-fugitive';
 load_bundle vim-json 'https://github.com/elzr/vim-json';
 load_bundle vim-bundler 'https://github.com/tpope/vim-bundler';
+load_bundle vim-deep-space 'https://github.com/tyrannicaltoucan/vim-deep-space';
+load_bundle vim-crystallite 'https://github.com/tomsik68/vim-crystallite';
+
