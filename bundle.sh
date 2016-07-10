@@ -31,6 +31,15 @@ load_bundle vim-surround 'https://github.com/tpope/vim-surround';
 load_bundle vim-fugitive 'https://github.com/tpope/vim-fugitive';
 load_bundle vim-json 'https://github.com/elzr/vim-json';
 load_bundle vim-bundler 'https://github.com/tpope/vim-bundler';
+
+# Color schemes
 load_bundle vim-deep-space 'https://github.com/tyrannicaltoucan/vim-deep-space';
 load_bundle vim-crystallite 'https://github.com/tomsik68/vim-crystallite';
+load_bundle material 'https://github.com/jscappini/material.vim';
+load_bundle 'obsidian2' 'https://github.com/vim-scripts/obsidian2.vim';
+load_bundle oceandeep 'https://github.com/vim-scripts/oceandeep';
+load_bundle 'vim-wwwdc16-theme' 'https://github.com/lifepillar/vim-wwdc16-theme';
+load_bundle sift 'https://github.com/vim-scripts/Sift';
+load_bundle vim-one 'https://github.com/rakr/vim-one';
+load_bundle vim-colors-japanesque 'https://github.com/aereal/vim-colors-japanesque';
 
