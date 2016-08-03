@@ -7,3 +7,4 @@ if exists("b:did_ftafterplugin") | finish | endif
 let b:did_ftafterplugin = 1
 
 nno <leader>r :%! python -m json.tool<CR>
+setl ai et sw=2 ts=2
