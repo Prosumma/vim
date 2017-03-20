@@ -31,6 +31,7 @@ load_bundle vim-surround 'https://github.com/tpope/vim-surround';
 load_bundle vim-fugitive 'https://github.com/tpope/vim-fugitive';
 load_bundle vim-json 'https://github.com/elzr/vim-json';
 load_bundle vim-bundler 'https://github.com/tpope/vim-bundler';
+load_bundle sqlserver.vim 'https://github.com/vim-scripts/sqlserver.vim'
 
 # Color schemes
 load_bundle vim-deep-space 'https://github.com/tyrannicaltoucan/vim-deep-space'; # GUI Term
@@ -41,4 +42,5 @@ load_bundle vim-wwwdc16-theme 'https://github.com/lifepillar/vim-wwdc16-theme'; 
 load_bundle sift 'https://github.com/vim-scripts/Sift'; # GUI Term
 load_bundle vim-one 'https://github.com/rakr/vim-one'; # GUI Term
 load_bundle vim-colors-japanesque 'https://github.com/aereal/vim-colors-japanesque'; # GUI NoTerm
+load_bundle badwolf 'https://github.com/sjl/badwolf'; # GUI Term
 
