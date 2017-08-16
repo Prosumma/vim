@@ -34,13 +34,14 @@ load_bundle vim-bundler 'https://github.com/tpope/vim-bundler';
 load_bundle sqlserver.vim 'https://github.com/vim-scripts/sqlserver.vim';
 load_bundle vim-javascript 'https://github.com/pangloss/vim-javascript';
 load_bundle vim-jsx 'https://github.com/mxw/vim-jsx';
+load_bundle vim-javascript 'https://github.com/pangloss/vim-javascript';
 
 # Color schemes
 load_bundle vim-deep-space 'https://github.com/tyrannicaltoucan/vim-deep-space'; # GUI Term
 load_bundle material.vim 'https://github.com/jscappini/material.vim'; # GUI Term
 load_bundle obsidian2.vim 'https://github.com/vim-scripts/obsidian2.vim'; # GUI NoTerm
 load_bundle oceandeep 'https://github.com/vim-scripts/oceandeep'; # GUI Term
-load_bundle vim-wwwdc16-theme 'https://github.com/lifepillar/vim-wwdc16-theme'; # GUI Term
+load_bundle vim-wwdc16-theme 'https://github.com/lifepillar/vim-wwdc16-theme'; # GUI Term
 load_bundle sift 'https://github.com/vim-scripts/Sift'; # GUI Term
 load_bundle vim-one 'https://github.com/rakr/vim-one'; # GUI Term
 load_bundle vim-colors-japanesque 'https://github.com/aereal/vim-colors-japanesque'; # GUI NoTerm
