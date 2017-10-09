@@ -10,7 +10,7 @@ setl ai expandtab sw=2 ts=2
 
 function! PGRunScript(database, user, password, file)
 	if strlen(a:file) == 0 | throw "No file specified!" | endif
-	let l:args = ["psql"]
+	let l:args = ["psql -X -v ON_ERROR_STOP=1"]
 	if strlen(a:database) > 0
 		call add(l:args, a:database)
 		if strlen(a:user) > 0
