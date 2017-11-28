@@ -46,4 +46,4 @@ load_bundle sift 'https://github.com/vim-scripts/Sift'; # GUI Term
 load_bundle vim-one 'https://github.com/rakr/vim-one'; # GUI Term
 load_bundle vim-colors-japanesque 'https://github.com/aereal/vim-colors-japanesque'; # GUI NoTerm
 load_bundle badwolf 'https://github.com/sjl/badwolf'; # GUI Term
-
+load_bundle gruvbox 'https://github.com/morhetz/gruvbox'; # GUI NoTerm
