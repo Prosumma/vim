@@ -32,7 +32,7 @@ set virtualedit=all
 set incsearch
 set listchars=tab:▸\ ,eol:¬
 set showcmd
-let g:NERDTreeShowHidden=1
+" let g:NERDTreeShowHidden=1
 
 let mapleader=' '
 map <LEADER>f :NERDTreeFind<CR>
