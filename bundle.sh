@@ -47,3 +47,4 @@ load_bundle vim-one 'https://github.com/rakr/vim-one'; # GUI Term
 load_bundle vim-colors-japanesque 'https://github.com/aereal/vim-colors-japanesque'; # GUI NoTerm
 load_bundle badwolf 'https://github.com/sjl/badwolf'; # GUI Term
 load_bundle gruvbox 'https://github.com/morhetz/gruvbox'; # GUI NoTerm
+load_bundle haskell-vim 'https://github.com/neovimhaskell/haskell-vim'; # GUI Term
