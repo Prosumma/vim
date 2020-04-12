@@ -38,6 +38,8 @@ let mapleader=' '
 map <LEADER>f :NERDTreeFind<CR>
 map <LEADER>l :set list!<CR>
 
+autocmd BufNewFile,BufRead *.podspec set syntax=ruby
+
 function! GetSyntaxFile()
   for path in pathogen#split(&rtp)
     let l:synpath = path . "/syntax/" . &l:filetype . ".vim"
