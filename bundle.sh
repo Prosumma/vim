@@ -35,6 +35,7 @@ load_bundle sqlserver.vim 'https://github.com/vim-scripts/sqlserver.vim';
 load_bundle vim-javascript 'https://github.com/pangloss/vim-javascript';
 load_bundle vim-jsx 'https://github.com/mxw/vim-jsx';
 load_bundle vim-javascript 'https://github.com/pangloss/vim-javascript';
+load_bundle vim-hoon 'https://github.com/urbit/hoon.vim'
 
 # Color schemes
 load_bundle vim-deep-space 'https://github.com/tyrannicaltoucan/vim-deep-space'; # GUI Term
@@ -48,3 +49,4 @@ load_bundle vim-colors-japanesque 'https://github.com/aereal/vim-colors-japanesq
 load_bundle badwolf 'https://github.com/sjl/badwolf'; # GUI Term
 load_bundle gruvbox 'https://github.com/morhetz/gruvbox'; # GUI NoTerm
 load_bundle haskell-vim 'https://github.com/neovimhaskell/haskell-vim'; # GUI Term
+load_bundle vim-colors-xcode 'https://github.com/arzg/vim-colors-xcode'; # GUI NoTerm
