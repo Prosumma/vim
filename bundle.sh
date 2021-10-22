@@ -36,6 +36,7 @@ load_bundle vim-javascript 'https://github.com/pangloss/vim-javascript';
 load_bundle vim-jsx 'https://github.com/mxw/vim-jsx';
 load_bundle vim-javascript 'https://github.com/pangloss/vim-javascript';
 load_bundle vim-hoon 'https://github.com/urbit/hoon.vim'
+load_bundle kotlin-vim 'https://github.com/udalov/kotlin-vim'
 
 # Color schemes
 load_bundle vim-deep-space 'https://github.com/tyrannicaltoucan/vim-deep-space'; # GUI Term
